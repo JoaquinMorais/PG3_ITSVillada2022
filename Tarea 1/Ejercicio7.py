@@ -17,7 +17,7 @@ def isStep(lista):
         cont+=1
     return valor
 
-lista = 1234567876543210
+lista = [1,2,3,2,3,4,5,4,3,2,3,4,5,4,7,8,7,6,5,4,3,2,1]
 
 print(f"La lista {lista}")
 if isStep(lista):
